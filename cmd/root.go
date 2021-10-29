@@ -140,6 +140,7 @@ EXEC: //处理
 
 	batchs = []string{}
 	if begin < end {
+		begin += 1
 		goto FOR
 
 	}
